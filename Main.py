@@ -128,8 +128,8 @@ if __name__ == '__main__':
         #sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) #UDP
         #sock.sendto(MESSAGE, (UDP_IP, UDP_PORT))
 
-        #microphone_data()
-        temperature_data()
+        microphone_data()
+    #temperature_data()
     
     
     except KeyboardInterrupt:
